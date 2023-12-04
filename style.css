@@ -1,16 +1,11 @@
-html{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 16px;
-    /*
-    background-color: orange;
-    background-image: url(https://cdna.artstation.com/p/assets/images/images/028/647/424/large/marnik-pas-finalfinal.jpg?1595081038);
-    background-size: cover;
-    background-position: center;
-    */
-
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
 }
 
 header{
+    padding: 10px 20px;
     background-color: orange;
 }
 
@@ -23,6 +18,8 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 600;
+    margin: 10px 0;
 }
 
 .musicName{
@@ -30,6 +27,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10px 0;
 }
 
 
@@ -61,6 +59,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10px 0;
     
 }
 .resume:hover{
@@ -83,6 +82,7 @@ a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 600;
     transition: .3s ease all;
+    margin: 10px 0;
     
 }
 a:hover{
