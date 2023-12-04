@@ -30,6 +30,7 @@ p{
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    font-style: italic;
 }
 
 
@@ -82,7 +83,16 @@ a:hover{
 footer{
     background-color: black;
     color: white;
-    padding: 5px 0px 3em 0px;
+    padding: 5px 0;
     display: block;
-
+    text-align: center;
+}
+.deleteButtonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.music{
+    
 }
