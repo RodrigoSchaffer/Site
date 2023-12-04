@@ -42,15 +42,7 @@ p{
      align-items: center;
      justify-content: center;
 }
-.linkButton{
-    position: relative;
-    width: 200px;
-    background-color: white;
-    transition: .3s ease all;
-    border: none;
-    color: aquamarine;
 
-}
 .linkButton:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     transform: translateY(-1px);
