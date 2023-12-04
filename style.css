@@ -1,13 +1,23 @@
 html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
+    /*
     background-color: orange;
-    /*background-image: url(https://cdna.artstation.com/p/assets/images/images/028/647/424/large/marnik-pas-finalfinal.jpg?1595081038);
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/028/647/424/large/marnik-pas-finalfinal.jpg?1595081038);
     background-size: cover;
     background-position: center;
     */
 
 }
+
+header{
+    background-color: orange;
+}
+
+main{
+    background-color: orange;
+}
+
 p{  
     color: white;
     display: flex;
@@ -21,6 +31,7 @@ p{
     align-items: center;
     justify-content: center;
 }
+
 
 .titulo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -81,7 +92,7 @@ a:hover{
 footer{
     background-color: black;
     color: white;
-    padding: 5px 0px;
+    padding: 5px 0px 3em 0px;
     display: block;
 
 }
