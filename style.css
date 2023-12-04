@@ -1,0 +1,87 @@
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    background-color: orange;
+    /*background-image: url(https://cdna.artstation.com/p/assets/images/images/028/647/424/large/marnik-pas-finalfinal.jpg?1595081038);
+    background-size: cover;
+    background-position: center;
+    */
+
+}
+p{  
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.musicName{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color: white;
+     display: inline-block;
+     margin: 10px 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.linkButton{
+    position: relative;
+    width: 200px;
+    background-color: white;
+    transition: .3s ease all;
+    border: none;
+    color: aquamarine;
+
+}
+.linkButton:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: translateY(-1px);
+
+}
+.resume{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.resume:hover{
+    transform: translateY(-2px);
+    transition: .3s ease all;
+}
+.F{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    text-decoration-color: none;
+    text-decoration-style: none;
+    font-size: 1em;
+    color: brown;
+    background-color: white;
+    padding: 10px 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    transition: .3s ease all;
+    
+}
+a:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: translateY(-1px);
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px 0px;
+    display: block;
+
+}
