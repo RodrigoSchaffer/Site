@@ -1,4 +1,4 @@
-function remove() {
-    var element = document.getElementById("child");
-    element.remove();
+function remove(event) {
+    let divContainer = event.target.parentElement.parentElement
+    divContainer.remove()
 }
