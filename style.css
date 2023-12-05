@@ -95,3 +95,22 @@ footer{
 .music{
     
 }
+button{
+    text-decoration: none;
+    text-decoration-color: none;
+    text-decoration-style: none;
+    font-size: 1em;
+    color: brown;
+    background-color: white;
+    padding: 10px 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    transition: .3s ease all;
+    margin: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: translateY(-1px);
+}
